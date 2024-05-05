@@ -7,6 +7,7 @@ const parsedUserData = JSON.parse(retrievedUserData);
 // Access data
 const user = parsedUserData.username;
 
-const fullName = document.createElement("h1");
-fullName.innerText = user;
-document.body.appendChild(fullName);
+const userName = document.querySelector(".userName");
+userName.innerText = user;
+
+console.log(user);
