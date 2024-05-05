@@ -1,18 +1,18 @@
 const userName = document.querySelector("#userName");
-const userEmail = document.querySelector("#userEmail");
+const userBalance = document.querySelector("#userBalance");
 const userPin = document.querySelector("#userPin");
 const submitBtn = document.querySelector("#submitBtn");
 
 const storeUserDetail = () => {
     let username = userName.value;
-    let useremail = userEmail.value;
+    let userbalance = userBalance.value;
     let userpin = userPin.value;
 
     // Convert variables to JSON string
     const userDataToStore = JSON.stringify(
         {
             username: username,
-            usermail: useremail,
+            userbalance: userbalance,
             userpin: userpin,
         }
     );
