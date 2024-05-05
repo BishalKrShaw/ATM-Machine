@@ -68,14 +68,13 @@ main .userName form input[type="submit"]{
     cursor: pointer;
 }
 
-main .userName form p{
+main .userName form .message{
     color: red;
     font-style: italic;
-    display: none;
 }
 
 .block{
-    display: block;
+    display: none;
 }
 
 main .menuBtn a{
