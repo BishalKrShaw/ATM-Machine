@@ -27,10 +27,13 @@ body{
 main{
     width: 500px;
     height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 25px;
+    overflow: hidden;
+}
+
+main h1{
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 form{
