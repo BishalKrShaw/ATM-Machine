@@ -1,0 +1,61 @@
+:root{
+    --primary-btn-color: rgb(211, 250, 139);
+    --primary-bg-color: #222;
+    --white-font-color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+html, body{
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--white-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+form label{
+   font-size: 16px;
+   font-weight: 600;
+}
+
+form input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: var(--primary-btn-color);
+    cursor: pointer;
+    font-weight: 600;
+}
