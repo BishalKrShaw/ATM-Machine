@@ -41,6 +41,10 @@ main .userName h2{
     margin-bottom: 8rem;
 }
 
+main form{
+    display: none;
+}
+
 main .userName form label{
     font-size: 20px;
 }
@@ -73,8 +77,12 @@ main .userName form .message{
     font-style: italic;
 }
 
-.block{
+main .userName form .message{
     display: none;
+}
+
+.block{
+    display: block;
 }
 
 main .menuBtn a{
