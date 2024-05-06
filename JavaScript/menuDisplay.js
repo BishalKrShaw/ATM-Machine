@@ -13,3 +13,22 @@ userName.innerText = user;
 
 console.log(user);
 console.log(userpin);
+
+// Validating PIN
+const form = document.querySelector(".userName form");
+
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    // Extracting value from input field
+    const pinValue = document.querySelector("#enterPin").value;
+
+    // Checking pinValue and userPin(localStorage)
+    if(pinValue === userpin) {
+        alert("Matched successfully");
+    }
+    else{
+        alert("Invalid Pin");
+    }
+
+})
