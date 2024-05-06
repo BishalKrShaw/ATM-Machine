@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Withdraw Page</title>
+    <title>Mini Statement Page</title>
+
+    <!-- ********** CSS ********** -->
+    <link rel="stylesheet" href="./CSS/menuDisplay.css">
+
 </head>
 <body>
 
-    <h1>Welcome to mini statement page</h1>
+    <main>
+        <div class="menuBtn">
+            <div class="leftMenu">
+                <a href="" data-option="miniStatement">Mini Statement</a>
+            </div>
+        </div>
+        <div class="userName">
+            <h2></h2>
+            <form action="">
+                <label for="enterPin">Enter your Pin</label><br/>
+                <input type="password" name="" id="enterPin"><br/>
+                <p class="message">Incorrect Pin</p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="menuBtn">
+            <div class="rightMenu">
+                <a href="" data-option="withdraw">Withdraw</a>
+            </div>
+            <div class="rightMenu">
+                <a href="" data-option="checkBalance">Check Balance</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- ********** JavaScript ************ -->
+    <script src="JavaScript/menuDisplay.js"></script>
     
 </body>
 </html>
