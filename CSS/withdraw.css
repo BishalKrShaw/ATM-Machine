@@ -77,10 +77,6 @@ main .userName form .message{
     font-style: italic;
 }
 
-main .userName form .message{
-    display: none;
-}
-
 .block{
     display: block;
 }
