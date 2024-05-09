@@ -85,7 +85,7 @@ main .userName form .message{
     display: block;
 }
 
-main .menuBtn a{
+main .menuBtn a, .pdf-btn{
     display: block;
     text-decoration: none;
     color: var(--primary-bg-color);
@@ -101,4 +101,8 @@ main .menuBtn a{
 
 main .menuBtn a:hover{
     background-color: rgb(176, 230, 76);
+}
+
+.pdf-btn{
+    display: inline;
 }

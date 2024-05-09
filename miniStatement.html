@@ -7,6 +7,11 @@
 
     <!-- ********** CSS ********** -->
     <link rel="stylesheet" href="./CSS/menuDisplay.css" />
+
+    <!-- Include pdfmake library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>
+
   </head>
   <body>
     <main>
@@ -17,12 +22,7 @@
       </div>
       <div class="userName">
         <h2></h2>
-        <form action="">
-          <label for="enterPin">Enter your Pin</label><br />
-          <input type="password" name="" id="enterPin" /><br />
-          <p class="message">Incorrect Pin</p>
-          <input type="submit" value="Submit" />
-        </form>
+        <button class="pdf-btn">See in PDF</button>
       </div>
       <div class="menuBtn">
         <div class="rightMenu">
@@ -36,5 +36,6 @@
 
     <!-- ********** JavaScript ************ -->
     <script src="JavaScript/menuDisplay.js"></script>
+    <script src="JavaScript/miniStatement.js"></script>
   </body>
 </html>
